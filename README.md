@@ -1,6 +1,6 @@
 # Portfólio Profissional Digital
-# DAVI TELES
-# ESTUDANTE DE CIENCIA DE DADOS
+# Davi teles
+# Estudante de ciência de dados e machine learning
 Repositório criado para armazenar projetos acadêmicos e pessoais.
 
 ## Projetos
