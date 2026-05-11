@@ -2,24 +2,118 @@ criando um novo arquivo
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Profissional</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Davi Teles | Portfólio</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#050816;
+    color:white;
+}
+
+header{
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+}
+
+.hero-text h1{
+    font-size:70px;
+    margin:0;
+    color:#7c5cff;
+}
+
+.hero-text h2{
+    font-size:35px;
+}
+
+button{
+    background:#6c4cff;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+section{
+    padding:40px 60px;
+}
+
+.card{
+    background:#0d1326;
+    padding:20px;
+    border-radius:15px;
+    margin:10px 0;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+}
+</style>
 </head>
+
 <body>
-    <h1>Portfólio Profissional Digital</h1>
-    
-    <h2>Sobre mim</h2>
-    <p>Estudante universitário desenvolvendo projetos acadêmicos e pessoais.</p>
 
+<header>
+    <h2>Davi Teles</h2>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Projetos</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div class="hero-text">
+        <h2>Olá, eu sou</h2>
+        <h1>Davi Teles</h1>
+        <p>Desenvolvedor e estudante universitário.</p>
+        <button>Ver Projetos</button>
+    </div>
+</div>
+
+<section>
     <h2>Projetos</h2>
-    <ul>
-        <li>Projeto de Álgebra Linear</li>
-        <li>Projeto Banco de Dados</li>
-        <li>Portfólio Web</li>
-    </ul>
 
-    <h2>Contato</h2>
-    <p>GitHub: buenox2020-commits</p>
+    <div class="card">
+        <h3>Projeto Álgebra Linear</h3>
+        <p>Aplicações de matrizes, vetores e sistemas lineares.</p>
+    </div>
+
+    <div class="card">
+        <h3>Banco de Dados</h3>
+        <p>Modelagem relacional e SQL.</p>
+    </div>
+
+    <div class="card">
+        <h3>Portfólio Web</h3>
+        <p>Site pessoal hospedado no GitHub Pages.</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Davi Teles
+</footer>
+
 </body>
 </html>
