@@ -17,3 +17,6 @@ Repositório criado para armazenar projetos acadêmicos e pessoais.
 
 ## GitHub Pages
 https://buenox2020-commits.github.io/portfolio-profissional/
+## Link Linkedin
+https://www.linkedin.com/in/davi-teles-?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
